@@ -9,4 +9,4 @@ function somar(a, b){
   return a + b;
 }
 
-console.log(soma(2, 5));
+console.log(somar(2, 5));
