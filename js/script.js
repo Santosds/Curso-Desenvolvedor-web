@@ -10,3 +10,6 @@ function somar(a, b){
 }
 
 console.log(somar(2, 5));
+document.getElementById("btn-calcular").onclick = function(){
+  
+}
