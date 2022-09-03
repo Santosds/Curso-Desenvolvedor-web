@@ -10,12 +10,12 @@
       <form method="post" action="form.php">
           <div class="form-group">
               <label for="nome"> Nome </label>
-              <input type="text" name="nome" id="nome" class="form-control" placeholder="digite o seu nome!" required autofocus tabindex="1"><!--autufocus já deixa a primeira lacuna ativa-->
-          </div>
+              <input type="text" name="nome" id="nome" class="form-control" placeholder="digite o seu nome!" required autofocus tabindex="1" disabled><!--autufocus já deixa a primeira lacuna ativa-->
+          </div><!--disabled bloqueia ou desabilita um campo, não permite leitura nem editação-->
           <div class="form-group">
             <label for="email"> E-mail </label>
-            <input type="email" name="email" id="email" class="form-control" placeholder="seu@email.com.br!" required tabindex="2"> <!--tabindex serve para ordenar a sequência do tab-->
-        </div>
+            <input type="email" name="email" id="email" class="form-control" placeholder="seu@email.com.br!" required tabindex="2" readonly> <!--tabindex serve para ordenar a sequência do tab-->
+        </div><!--readonly bloqueia, porém, permite ler e copiar-->
         <div class="form-group">
             <label for="nascimento"> Nascimento </label>
             <input type="date" name="nascimento" id="nascimento" class="form-control" required min="2022-01-15" max="2022-09-29">
